@@ -1,0 +1,13 @@
+#group division
+a=[9,8,7,5,4,5,8,5,1,2,8,4,1,5,2,3,4]
+l=len(a)
+b=[]
+def group(a,size):
+	for i in range(0,l,size):
+		new=a[i:i+size]
+		if len(new)==size:
+			b.append(new)
+		else:
+			b.append(new)
+	return b
+print group(a,4) 
