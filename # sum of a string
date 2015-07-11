@@ -1,0 +1,8 @@
+# sum of a string
+def sm(a):
+	b=""
+	for i in a:
+		b=b+i
+	return b
+					
+print sm(["hellow","world"])
