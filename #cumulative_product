@@ -1,0 +1,17 @@
+#cumulative_product
+def product(q):
+    r = 1
+    for x in q:
+        r *= x
+    return r
+
+a=[4, 3, 2, 1]
+b=[]
+c=[]
+p=1
+def cum(a):
+	for i in a:
+		b.append(i)	
+		c.append(product(b))
+	return c
+print cum(a)
