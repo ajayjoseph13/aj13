@@ -1,0 +1,10 @@
+# is_member
+a=[1,2,3,4,5,6,8,7,5,5,7]
+def is__member(a,x):
+	for i in a:
+		if i==x:
+			return True
+	return False
+
+print is__member(a,6) 		
+		
