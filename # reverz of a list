@@ -1,0 +1,8 @@
+# reverz of a list 
+
+b=[]
+def reverz(s):
+	for i in reversed(s):
+		b.append(i)
+	return b
+print reverz([8,3,6,7])
