@@ -1,0 +1,18 @@
+a=[1,3,4,5]
+
+b=[]
+
+c=[]
+
+def cum(a):
+
+	for i in a:
+
+		b.append(i)
+
+		c.append(sum(b))
+
+	return c
+print cum(a)
+			
+		
