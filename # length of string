@@ -1,0 +1,8 @@
+# length of string
+a="ajayjosephlsdifaug"
+def lenstr(a):
+	j=0
+	for i in a:
+		j=j+1
+	return j
+print lenstr(a)	
