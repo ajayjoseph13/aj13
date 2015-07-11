@@ -1,0 +1,10 @@
+# string pallindrome
+a="malayalam"
+def strpallin(a):
+	b=a
+	c=a[::-1]
+	if b==c:
+		return True
+	else:
+		return False
+print strpallin(a)
