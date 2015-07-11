@@ -1,0 +1,8 @@
+# product of elements of a list
+
+def product(x):
+    val=1
+    for i in x:
+        val=val*i
+    return val
+print product([1,2,3])
