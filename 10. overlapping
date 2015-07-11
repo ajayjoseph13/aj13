@@ -1,0 +1,10 @@
+10_overlapping
+a=[1,6,9,9,8,75,4,85,787,84849,97,97]
+b=[464,99,7,9,9,524,5649,45,787,77,88,]
+def over_lapping(a,b):
+	for i in a:
+		for j in b:
+			if i==j:
+				return True
+	return False
+print over_lapping(a,b)
