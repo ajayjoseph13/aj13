@@ -1,0 +1,5 @@
+# function to reverse a string
+a='I am string'
+def rever(a):
+	return a[::-1]
+print rever(a)
