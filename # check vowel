@@ -1,0 +1,5 @@
+# check vowel
+a=['a','e','i','o','u']
+def vowel(character):
+	return character in a
+print vowel('a')
